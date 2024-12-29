@@ -1,7 +1,7 @@
 import numpy as np 
 import tensorflow as tf 
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
+from keras.models import load_model
+from keras.preprocessing.image import load_img, img_to_array
 
 model = load_model("models/mnist_model.keras")
 
